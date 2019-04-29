@@ -8,7 +8,7 @@ function myFunction1(){
 function myFunction2(){
 	let username = prompt("What's your name?");
 
-alert("Hello" + username);
+alert("Hello " + username);
 
 
 
