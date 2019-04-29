@@ -6,7 +6,12 @@ function myFunction1(){
 }
 
 function myFunction2(){
-	prompt("What's your name?");
+	let username = prompt("What's your name?");
+
+alert("hello"+username){
+
+	
+}
 
 
 
