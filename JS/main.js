@@ -8,7 +8,7 @@ function myFunction1(){
 function myFunction2(){
 	let username = prompt("What's your name?");
 
-alert("Hello " + username);
+	alert("Hello " + username);
 
 
 
@@ -24,8 +24,8 @@ function myFunction3(){
 
 function biggerNum(){
 
-var num1=parseInt(prompt("Enter first number"));
-var num2=parseInt(prompt("Enter second number"));
+	var num1=parseInt(prompt("Enter first number"));
+	var num2=parseInt(prompt("Enter second number"));
 
 	if (num1>num2){
 		console.log(num1+" is the bigger number");
@@ -40,3 +40,9 @@ var num2=parseInt(prompt("Enter second number"));
 
 
 
+function productSign(int1,int2,int3){
+
+	let product = int1 * int2 * int3 ;
+	document.getElementById("display") = "the product of " + int1 + " and " + int2 + " and " + int3 + " is " + product;
+
+}
