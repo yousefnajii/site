@@ -43,6 +43,7 @@ function biggerNum(){
 function productSign(int1,int2,int3){
 
 	let product = int1 * int2 * int3 ;
-	document.getElementById("display") = "the product of " + int1 + " and " + int2 + " and " + int3 + " is " + product;
+	let message =  "the product of " + int1 + " x " + int2 + " x " + int3 + " is " + product;
+	document.getElementById("display").innerHTML = message;
 
 }
